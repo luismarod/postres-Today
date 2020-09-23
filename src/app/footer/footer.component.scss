@@ -1,0 +1,47 @@
+
+/*   Footer    */
+#footer{
+  margin-top: 2%;
+  background: #eaf4f6;
+  font-size: calc(0.6em + 0.5vw);
+}
+
+
+#footer .fa{
+  color: black;
+  transition: all 0.2s ease-in-out;
+
+}
+
+#footer .fa:hover{
+  color: #d10505;
+}
+
+#footer .derecha{
+  text-align: end;
+}
+
+#footer h3{
+  font-family: 'Grand Hotel', arial;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  font-size: calc(1em + 1.4vw);
+}
+
+#footer input {
+  margin-bottom: 4px;
+  font-size: calc(0.6em + 0.5vw);
+}
+
+#footer .btn{
+  color: white;
+  background: #d10505;
+  font-size: calc(0.5em + 0.5vw);
+  transition: all 0.4s ease-in-out;
+}
+
+#footer .btn:hover{
+  color: #d10505;
+  border: 1px solid #d10505;
+  background: none;
+}

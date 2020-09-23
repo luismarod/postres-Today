@@ -1,0 +1,45 @@
+
+@media (max-width:768px) {
+  #productos{
+    margin-top: 20%;
+  }
+
+  #productos div{
+    margin: auto;
+  }
+
+}
+
+#productos {
+  padding: 15% 0px;
+}
+
+#productos  h1 {
+  font-family: 'Grand Hotel', arial;
+  font-size: calc(2em + 2vw);
+  margin-bottom: 5%;
+}
+
+#productos .row {
+  padding-top: 5%;
+}
+
+#productos img {
+  margin: 10% auto;
+  box-shadow: 2px 2px 5px gray;
+  width: 95%;
+}
+
+
+#productos ul {
+  margin: 0px auto;
+  font-size: calc(0.6em + 0.5vw);
+}
+
+#productos .nombre {
+  background: #daf8ff;
+  font-family: Impact, fantasy;
+  font-size: calc(0.8em + 0.8vw);
+}
+
+

@@ -1,0 +1,28 @@
+
+@media(max-width:768px){
+  #quienes-somos {
+    margin-top: 20%;
+    margin-left: 4px;
+  }
+}
+
+#quienes-somos {
+  padding: 15% 0px;
+}
+
+#quienes-somos h1{
+  font-family: 'Grand Hotel', arial;
+  margin-bottom: 5%;
+  font-size: calc(2em + 2vw);
+}
+
+#quienes-somos img {
+  margin: auto;
+  box-shadow: 2px 2px 5px gray;
+  width: 70%;
+}
+
+#quienes-somos p {
+  text-align: center;
+  font-size: calc(0.6em + 0.8vw);
+}

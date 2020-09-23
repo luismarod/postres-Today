@@ -1,0 +1,50 @@
+
+@media(max-width:768){
+  #carousel-img-postres {
+    margin-top: 35%;
+  }
+}
+
+/* carousel */
+#carousel{
+  width: 100%;
+}
+
+#carousel-img-postres{
+  padding-top: 5%;
+}
+
+/*   Quienes somos    */
+#quienes-somos .logo {
+  margin: 5% 0px;
+}
+
+#quienes-somos img {
+  width: 50%;
+  transition: width 0.3s;
+}
+
+#quienes-somos img:hover {
+  width: 55%;
+}
+
+
+/*  Productos  */
+#Productos a{
+  color: white;
+  font-size: calc(0.6em + 0.5vw);
+  background: #d10505;
+  transition: all 0.4s ease-in-out;
+}
+
+#Productos .card-title{
+  font-family:Impact, fantasy;
+  font-size: calc(1em + 0.5vw);
+}
+
+#Productos a:hover{
+  color: #d10505;
+  background: white;
+  border: 1px solid #d10505;
+}
+
