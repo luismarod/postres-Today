@@ -24,22 +24,45 @@
   padding-top: 5%;
 }
 
-#productos img {
-  margin: 10% auto;
-  box-shadow: 2px 2px 5px gray;
-  width: 95%;
-}
 
+#productos .col-md-8{
+  height: 400px;
+  overflow: auto;
+}
 
 #productos ul {
   margin: 0px auto;
   font-size: calc(0.6em + 0.5vw);
 }
 
-#productos .nombre {
-  background: #daf8ff;
+#productos .list-group-item {
+  background: rgba(218,248,255,0.3);
+  padding: 5.5%;
+  margin: auto 0px;
   font-family: Impact, fantasy;
   font-size: calc(0.8em + 0.8vw);
 }
+
+#productos .list-group-item.active {
+  z-index: 2;
+  color: black;
+  background-color: rgba(218,248,255,1);
+  border-color: black;
+
+}
+
+#productos button{
+  color: white;
+  font-size: calc(0.6em + 0.5vw);
+  background: #d10505;
+  transition: all 0.4s ease-in-out;
+}
+
+#productos button:hover{
+  color: #d10505;
+  background: white;
+  border: 1px solid #d10505;
+}
+
 
 
