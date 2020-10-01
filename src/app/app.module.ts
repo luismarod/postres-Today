@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 
 
 import { AppComponent } from './app.component';
-import { NavComponent } from './nav/nav.component';
-import { MainComponent } from './main/main.component';
-import { ProductosComponent } from './productos/productos.component';
-import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
-import { ContactoComponent } from './contacto/contacto.component';
-import { FooterComponent } from './footer/footer.component';
+
+import { TarjetasComponent } from './components/shared/tarjetas/tarjetas.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
+import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.component';
+import { ProductosComponent } from './components/productos/productos.component';
+import { MainComponent } from './components/main/main.component';
+import { NavComponent } from './components/shared/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     ProductosComponent,
     QuienesSomosComponent,
     ContactoComponent,
-    FooterComponent
+    FooterComponent,
+    TarjetasComponent
   ],
   imports: [
     BrowserModule,

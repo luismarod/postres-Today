@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductosService } from '../services/productos.service';
+import { ProductosService } from 'src/app/services/productos.service';
+
 import { postres } from './postres';
 import { tiposPostres } from './tipo-postres';
 
