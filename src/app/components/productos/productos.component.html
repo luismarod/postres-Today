@@ -1,18 +1,18 @@
 
 
 <div id="productos" class="container">
-  <h1 class="text-center wow ">Productos</h1>
+  <h1 class="text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">Productos</h1>
 
-  <div class="container animated fadeIn">
+  <div class="container">
     <div class="row">
-      <div class="col-md-4 columna">
+      <div class="col-md-4 columna wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
         <div class="list-group" id="list-tab" role="tablist">
           <a *ngFor="let tipo of tipoPostres" (click)="filtrarTipo( tipo.id )" class="list-group-item list-group-item-action" data-toggle="list"  role="tab">{{ tipo.nombre | titlecase }}</a>
         </div>
       </div>
-      <div class="col-md-8 columna animated fadeIn">
-          <div class="card-columns ">
-            <div class="card animated fadeIn" *ngFor="let postre of postres">
+      <div class="col-md-8 columna">
+          <div class="card-columns">
+            <div class="card wow fadeInLeft" data-wow-duration="1s" *ngFor="let postre of postres">
               <img src="assets/img/brownie-producto.jpg" class="img-fluid">
               <div class="card-body">
                 <h5 class="card-title">{{ postre.nombre }}</h5>
