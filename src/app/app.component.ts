@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
+import { NgwWowService } from 'ngx-wow';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +9,10 @@ import { NavigationEnd, Router } from '@angular/router';
 })
 export class AppComponent implements OnInit{
 
-  constructor(private router : Router) {}
+  constructor(private router : Router,
+              private wowService: NgwWowService) {
+                this.wowService.init();
+              }
 
   title = 'postres-today';
 
@@ -18,7 +22,9 @@ export class AppComponent implements OnInit{
           return;
       }
       window.scrollTo(0, 0)
+
   });
+
 
   }
 
