@@ -12,8 +12,8 @@ const routes: Routes = [
   {path:'quienes-somos', component: QuienesSomosComponent},
   {path:'productos', component: ProductosComponent},
   {path:'contacto', component: ContactoComponent},
-  {path:'**', component: MainComponent}
-];
+  { path: '**', pathMatch: 'full', redirectTo: 'inicio' }
+]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
